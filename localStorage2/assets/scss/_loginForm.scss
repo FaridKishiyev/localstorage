@@ -1,0 +1,34 @@
+.contain {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-layer {
+  border: 1px dashed gray;
+}
+.login-form {
+  padding: 20px;
+}
+.form-element {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login,
+.logout {
+  width: 150px;
+}
+.message {
+  padding: 20px;
+}
+.alert {
+  margin-top: 20px;
+}
+.message {
+  display: none;
+}
+.rules {
+  display: none;
+}
